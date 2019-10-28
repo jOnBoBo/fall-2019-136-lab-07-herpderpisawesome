@@ -11,10 +11,18 @@ using std::string;
 
 int main(){
 string line{};
+string w{};
+string g{};
 while(getline(cin,line)){
-    
-    cout << indent(line);
+    w+=rmindent(line);
+    g+=indent(line);
 }
+cout << w << endl << g;
+
+
+
+
+
 
     
 return 0;
