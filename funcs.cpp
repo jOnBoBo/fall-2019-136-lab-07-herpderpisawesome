@@ -43,7 +43,7 @@ static int y{};
     }
         y+=countChar(line,'{');
   
-        newline += line +"\n" ;
+        newline += rmindent(line);
     
     return newline;
 }
