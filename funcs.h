@@ -1,4 +1,8 @@
 #pragma once
-#include <string>
+#include <iostream>
+using std::string;
 
-std::string removeLeadingSpaces(std::string line);
+string removeLeadingSpaces(string line);
+string rmindent(string line);
+int countChar(string line, char c);
+string indent(string line);
