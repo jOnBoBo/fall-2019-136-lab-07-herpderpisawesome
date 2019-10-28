@@ -24,7 +24,7 @@ int main()
         w += rmindent(line);
         g += indent(line);
     }
-    cout << w << endl << g;
+    cout << " //remove indent" << endl << w << " //adding indentation" << endl << g;
 
     return 0;
 }
